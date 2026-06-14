@@ -1,0 +1,104 @@
+<!-- Westwood Park-style panorama: rolling residential hills with houses and trees -->
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe0ea"/>
+      <stop offset="55%" stop-color="#e7f1ee"/>
+      <stop offset="100%" stop-color="#f6efe6"/>
+    </linearGradient>
+    <linearGradient id="hill2a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a9c08a"/>
+      <stop offset="100%" stop-color="#8aa86f"/>
+    </linearGradient>
+    <linearGradient id="hill2b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c7b896"/>
+      <stop offset="100%" stop-color="#b8a37c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#sky2)"/>
+
+  <!-- soft clouds -->
+  <g fill="#ffffff" opacity="0.6">
+    <ellipse cx="300" cy="180" rx="120" ry="34"/>
+    <ellipse cx="400" cy="160" rx="90" ry="28"/>
+    <ellipse cx="1400" cy="140" rx="140" ry="36"/>
+    <ellipse cx="1520" cy="170" rx="90" ry="26"/>
+  </g>
+
+  <!-- far rolling hill -->
+  <path d="M0,560 C300,470 600,620 960,520 C1300,440 1650,600 1920,500 L1920,1080 L0,1080 Z" fill="url(#hill2b)" opacity="0.55"/>
+
+  <!-- main hill -->
+  <path d="M0,680 C260,580 540,720 900,620 C1260,520 1600,700 1920,620 L1920,1080 L0,1080 Z" fill="url(#hill2a)"/>
+
+  <!-- winding road -->
+  <path d="M0,820 C300,760 500,900 820,840 C1140,780 1400,920 1920,840 L1920,1080 L0,1080 Z" fill="#d9d2c4"/>
+  <path d="M0,820 C300,760 500,900 820,840 C1140,780 1400,920 1920,840" stroke="#fdfaf5" stroke-width="6" fill="none" stroke-dasharray="36 28" opacity="0.7"/>
+
+  <!-- houses scattered along hill -->
+  <g>
+    <!-- house template -->
+    <g transform="translate(120,660)">
+      <rect x="0" y="40" width="140" height="90" fill="#f3ede4"/>
+      <polygon points="0,40 70,0 140,40" fill="#b8923f"/>
+      <rect x="20" y="70" width="30" height="40" fill="#cdd6c8"/>
+      <rect x="90" y="70" width="30" height="40" fill="#cdd6c8"/>
+    </g>
+    <g transform="translate(360,620)">
+      <rect x="0" y="50" width="160" height="100" fill="#e3d3c4"/>
+      <polygon points="0,50 80,0 160,50" fill="#8a7660"/>
+      <rect x="25" y="85" width="35" height="45" fill="#cdd6c8"/>
+      <rect x="100" y="85" width="35" height="45" fill="#cdd6c8"/>
+    </g>
+    <g transform="translate(640,650)">
+      <rect x="0" y="40" width="150" height="95" fill="#cfa9a0"/>
+      <polygon points="0,40 75,-5 150,40" fill="#b8923f"/>
+      <rect x="20" y="75" width="32" height="40" fill="#fdfaf5"/>
+      <rect x="98" y="75" width="32" height="40" fill="#fdfaf5"/>
+    </g>
+    <g transform="translate(900,600)">
+      <rect x="0" y="60" width="170" height="105" fill="#c9b6c8"/>
+      <polygon points="0,60 85,5 170,60" fill="#8a7660"/>
+      <rect x="28" y="98" width="36" height="45" fill="#cdd6c8"/>
+      <rect x="106" y="98" width="36" height="45" fill="#cdd6c8"/>
+    </g>
+    <g transform="translate(1180,650)">
+      <rect x="0" y="40" width="150" height="95" fill="#f0ddb8"/>
+      <polygon points="0,40 75,-5 150,40" fill="#b8923f"/>
+      <rect x="20" y="75" width="32" height="40" fill="#fdfaf5"/>
+      <rect x="98" y="75" width="32" height="40" fill="#fdfaf5"/>
+    </g>
+    <g transform="translate(1440,600)">
+      <rect x="0" y="60" width="170" height="105" fill="#cdd6c8"/>
+      <polygon points="0,60 85,5 170,60" fill="#8a7660"/>
+      <rect x="28" y="98" width="36" height="45" fill="#fdfaf5"/>
+      <rect x="106" y="98" width="36" height="45" fill="#fdfaf5"/>
+    </g>
+    <g transform="translate(1690,650)">
+      <rect x="0" y="40" width="150" height="95" fill="#caa9a0"/>
+      <polygon points="0,40 75,-5 150,40" fill="#b8923f"/>
+      <rect x="20" y="75" width="32" height="40" fill="#fdfaf5"/>
+      <rect x="98" y="75" width="32" height="40" fill="#fdfaf5"/>
+    </g>
+  </g>
+
+  <!-- trees -->
+  <g fill="#6f8f5a">
+    <g transform="translate(260,700)"><rect x="14" y="40" width="8" height="40" fill="#7a5c43"/><circle cx="18" cy="35" r="32"/></g>
+    <g transform="translate(540,660)"><rect x="14" y="40" width="8" height="50" fill="#7a5c43"/><circle cx="18" cy="35" r="38"/></g>
+    <g transform="translate(820,690)"><rect x="14" y="40" width="8" height="40" fill="#7a5c43"/><circle cx="18" cy="35" r="30"/></g>
+    <g transform="translate(1080,650)"><rect x="14" y="40" width="8" height="50" fill="#7a5c43"/><circle cx="18" cy="35" r="36"/></g>
+    <g transform="translate(1360,690)"><rect x="14" y="40" width="8" height="40" fill="#7a5c43"/><circle cx="18" cy="35" r="30"/></g>
+    <g transform="translate(1620,650)"><rect x="14" y="40" width="8" height="50" fill="#7a5c43"/><circle cx="18" cy="35" r="36"/></g>
+  </g>
+
+  <!-- distant downtown skyline silhouette -->
+  <g fill="#26282b" opacity="0.18">
+    <rect x="1500" y="430" width="40" height="160"/>
+    <rect x="1550" y="380" width="50" height="210"/>
+    <polygon points="1600,300 1630,300 1645,380 1585,380" />
+    <rect x="1650" y="450" width="36" height="140"/>
+    <rect x="1700" y="400" width="44" height="190"/>
+  </g>
+</svg>

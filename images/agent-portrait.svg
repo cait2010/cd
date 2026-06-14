@@ -1,0 +1,16 @@
+<!-- Placeholder portrait for Caitlin D'Aprano -->
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="portraitBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3ede4"/>
+      <stop offset="100%" stop-color="#d9bd84"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#portraitBg)"/>
+  <!-- simple silhouette -->
+  <circle cx="400" cy="380" r="150" fill="#3b3e42" opacity="0.18"/>
+  <path d="M180,1000 C180,760 280,650 400,650 C520,650 620,760 620,1000 Z" fill="#3b3e42" opacity="0.18"/>
+  <!-- monogram -->
+  <text x="400" y="430" font-family="Georgia, serif" font-size="180" font-weight="600" fill="#26282b" text-anchor="middle" opacity="0.35">CD</text>
+  <text x="400" y="900" font-family="Helvetica, Arial, sans-serif" font-size="28" letter-spacing="6" fill="#6f6a63" text-anchor="middle" opacity="0.7">PHOTO COMING SOON</text>
+</svg>
