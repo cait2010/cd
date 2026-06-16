@@ -856,7 +856,7 @@ section {
     color: #fff;
   }
   .logo { font-size: 1.1rem; }
-  .logo small { font-size: 0.55rem; letter-spacing: 0.22em; }
+  .logo small { display: none; }
   .nav-cta { gap: 10px; }
   .nav-cta-btn { padding: 8px 14px; font-size: 0.7rem; letter-spacing: 0.08em; }
   .nav-toggle span { width: 22px; }
