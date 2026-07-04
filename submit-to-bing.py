@@ -12,11 +12,11 @@ HOST = "www.caitlindaprano.com"
 
 URLS = [
     "https://www.caitlindaprano.com/",
-    "https://www.caitlindaprano.com/about.html",
-    "https://www.caitlindaprano.com/testimonials.html",
-    "https://www.caitlindaprano.com/contact.html",
-    "https://www.caitlindaprano.com/blog/index.html",
-    "https://www.caitlindaprano.com/blog/sf-real-estate-neighborhood-guide.html",
+    "https://www.caitlindaprano.com/about",
+    "https://www.caitlindaprano.com/testimonials",
+    "https://www.caitlindaprano.com/contact",
+    "https://www.caitlindaprano.com/blog/",
+    "https://www.caitlindaprano.com/blog/sf-real-estate-neighborhood-guide",
 ]
 
 payload = json.dumps({
