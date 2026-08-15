@@ -1,0 +1,70 @@
+<!-- Downtown San Francisco skyline panorama with bay and bridge -->
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9fc7d6"/>
+      <stop offset="55%" stop-color="#d7e6e6"/>
+      <stop offset="100%" stop-color="#f3ede4"/>
+    </linearGradient>
+    <linearGradient id="water3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7d9aa6"/>
+      <stop offset="100%" stop-color="#5d7c8a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#sky3)"/>
+
+  <!-- hills behind skyline -->
+  <path d="M0,520 C300,460 650,560 1000,490 C1350,420 1650,520 1920,470 L1920,700 L0,700 Z" fill="#a9bcae" opacity="0.55"/>
+
+  <!-- Bay Bridge (right side, simplified) -->
+  <g stroke="#8a8f93" stroke-width="6" fill="none" opacity="0.7">
+    <path d="M1300,640 C1450,560 1600,560 1750,620 C1820,650 1880,650 1920,640"/>
+    <line x1="1420" y1="640" x2="1420" y2="560"/>
+    <line x1="1620" y1="640" x2="1620" y2="560"/>
+  </g>
+
+  <!-- downtown skyline silhouette -->
+  <g fill="#3b3e42">
+    <rect x="120" y="480" width="60" height="200"/>
+    <rect x="200" y="420" width="50" height="260"/>
+    <rect x="270" y="460" width="70" height="220"/>
+    <rect x="360" y="400" width="55" height="280"/>
+    <rect x="430" y="500" width="60" height="180"/>
+    <!-- Transamerica-style pyramid -->
+    <polygon points="540,260 600,260 615,680 525,680"/>
+    <rect x="660" y="440" width="65" height="240"/>
+    <rect x="740" y="380" width="60" height="300"/>
+    <!-- Salesforce Tower-style -->
+    <rect x="830" y="220" width="90" height="460" rx="6"/>
+    <rect x="940" y="430" width="60" height="250"/>
+    <rect x="1020" y="470" width="70" height="210"/>
+    <rect x="1110" y="410" width="55" height="270"/>
+    <rect x="1180" y="500" width="65" height="180"/>
+    <rect x="1260" y="450" width="50" height="230"/>
+    <rect x="1330" y="500" width="60" height="180"/>
+    <rect x="1410" y="470" width="55" height="210"/>
+    <rect x="1480" y="520" width="60" height="160"/>
+  </g>
+
+  <!-- building windows (subtle) -->
+  <g fill="#f3ede4" opacity="0.12">
+    <rect x="845" y="240" width="60" height="420"/>
+    <rect x="365" y="420" width="35" height="240"/>
+    <rect x="1115" y="430" width="35" height="230"/>
+  </g>
+
+  <!-- bay water -->
+  <rect x="0" y="680" width="1920" height="300" fill="url(#water3)"/>
+  <g opacity="0.2" stroke="#ffffff" stroke-width="2">
+    <line x1="100" y1="740" x2="500" y2="740"/>
+    <line x1="600" y1="800" x2="1000" y2="800"/>
+    <line x1="1100" y1="760" x2="1500" y2="760"/>
+    <line x1="1550" y1="840" x2="1880" y2="840"/>
+    <line x1="200" y1="900" x2="650" y2="900"/>
+    <line x1="900" y1="940" x2="1400" y2="940"/>
+  </g>
+
+  <!-- foreground pier / embarcadero silhouette -->
+  <path d="M0,1080 L0,950 C400,920 800,1000 1200,940 C1500,900 1750,980 1920,950 L1920,1080 Z" fill="#26282b" opacity="0.85"/>
+</svg>
